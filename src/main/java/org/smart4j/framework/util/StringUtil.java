@@ -7,6 +7,13 @@ import org.apache.commons.lang3.StringUtils;
  * @Author Ther
  */
 public final class StringUtil {
+
+    /**
+     * 字符串分隔符
+     * self: GS (group separator),分组符
+     */
+    public static final String SEPARATOR = String.valueOf((char) 29);
+
     /**
      * 判断字符串是否为空
      */

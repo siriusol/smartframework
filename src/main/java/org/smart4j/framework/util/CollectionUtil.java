@@ -34,7 +34,7 @@ public final class CollectionUtil {
     /**
      * 判断 Map 是否非空
      */
-    public static boolean isNotmpty(Map<?, ?> map) {
+    public static boolean isNotEmpty(Map<?, ?> map) {
         return !MapUtils.isEmpty(map);
     }
 }
