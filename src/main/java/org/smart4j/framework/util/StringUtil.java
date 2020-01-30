@@ -31,5 +31,10 @@ public final class StringUtil {
         return !isEmpty(string);
     }
 
-
+    /**
+     * 自己实现
+     */
+    public static String[] splitString(String string, String separatorChars) {
+        return StringUtils.split(string, separatorChars);
+    }
 }
