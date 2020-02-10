@@ -27,7 +27,7 @@ import java.util.Map;
  * @author Ther
  * @since 1.0.0
  */
-public class UploadHelper {
+public final class UploadHelper {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UploadHelper.class);
 

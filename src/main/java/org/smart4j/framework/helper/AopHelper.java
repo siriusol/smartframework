@@ -17,7 +17,7 @@ import java.util.*;
  * @author Ther
  * @since 1.0.0
  */
-public class AopHelper {
+public final class AopHelper {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AopHelper.class);
 

@@ -19,7 +19,7 @@ import java.util.List;
  * @author Ther
  * @since 1.0.0
  */
-public class RequestHelper {
+public final class RequestHelper {
 
     /**
      * 创建请求对象

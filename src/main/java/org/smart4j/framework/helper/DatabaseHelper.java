@@ -11,7 +11,7 @@ import java.sql.SQLException;
  * 数据库操作助手类
  * @author Ther
  */
-public class DatabaseHelper {
+public final class DatabaseHelper {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DatabaseHelper.class);
 
